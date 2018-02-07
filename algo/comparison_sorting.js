@@ -16,3 +16,6 @@ Array.prototype.shuffle = function() {
 }
 
 console.log([4,5,6,9].shuffle());
+
+// merge sort
+
