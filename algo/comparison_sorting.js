@@ -18,7 +18,9 @@ Array.prototype.shuffle = function() {
 console.log([4,5,6,9].shuffle());
 
 // merge sort
-
+console.log(`merge sort`, `(정렬의 과정) 나누기 > 계속 쪼개기 >
+다시 맞춰 올라가기 > 병합. n log n의 시간보잡도를 보장한다(32 * log 32 = 32 * 6).
+즉, 최악의 경우에도 성능 보장. `)
 // bubble sort
 console.log(`bubble sort`, `두개의 자료를 비교하고
 전체적인 순서에 맞게 자료를 맞바꿔서 정렬을 하게 된다.`);
@@ -45,7 +47,7 @@ console.log(`https: //stackoverflow.com/questions/37817334/javascript-bubble-sor
 // quick sort
 console.log(`quick sort`, `기준이 되는 숫자를 정해서
 그것보다 큰 원소들과 작은 원들로 편을 갈라놓고 정렬하자는 것이다.
-재귀를 이용한 분할정복 알고리즘이다.`);
+재귀를 이용한 분할정복 알고리즘이다. 메모리도 적게 쓰고 빠르다.`);
 
 function quickSort(arr) {
   if(!arr.length){
@@ -62,33 +64,3 @@ function quickSort(arr) {
 }
 
 
-// insertion sort
-
-// selection sort
-
-// shell sort
-
-// change sort
-
-
-// array vs linkedlist
-
-// stack and queue
-
-// tree
-// binary tree
-console.log(`binary tree`, `한개의 노드에 최대 2개 이하의
-자식을 소유하고 있는 트리`);
-// full binary tree
-console.log(`full binary tree`, `모든 노드가 2개의 자식 노드를
-가지며 모든 레벨이 꽉 찬 트리이다.`);
-// complete binary tree
-console.log(`complete binary tree`, `포화 이진 트리같이
-모든 레벨이 꽉 찬 트리는 아니지만 모든 노드가 2개의 자식 노드를 가지는
-트리이다.`);
-console.log(`http://minsone.github.io/programming/binary-tree`);
-// bst (binary search tree)
-
-// binary heep
-
-// graph

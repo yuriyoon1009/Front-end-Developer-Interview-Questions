@@ -151,6 +151,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * JavaScript의 작동방식의 장단점에 관해 설명해주세요.
 * JavaScript를 디버깅할 때 사용하는 도구가 있으면 설명해주세요.
 * 객체 안의 속성과 배열의 아이템을 순회할 때 사용하는 문법에 관해 설명해주세요.
+
 * mutable object와 immutable object에 관해 설명해주세요.
   * JavaScript에서 immutable 객체의 예를 들어보세요.
   * immutability의 장/단점은 무엇인가요?

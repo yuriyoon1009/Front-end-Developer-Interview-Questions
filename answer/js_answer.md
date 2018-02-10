@@ -34,12 +34,31 @@ https://codeburst.io/clearing-your-front-end-job-interview-javascript-d5ec896add
   * What needs to be changed to properly make it an IIFE?
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
   * How would you go about checking for any of these states?
+- undefined is a variable that has been declared but no value exists andi is a type of itself 'undefined'
+- null is a value of a varible and a type of object.
+- undeclared variables is a variable that has been declared without ‘var’ keyword.
+```
+if(typeof(a) == 'undefined') {
+  alert('a is undeclared or undefined');
+}else{
+  alert('a is declared and defined');
+}
+
+```
 * What is a closure, and how/why would you use one?
+
+* Explain "hoisting".
+
 * Can you describe the main difference between a `forEach` loop and a `.map()` loop and why you would pick one versus the other?
+
 * What's a typical use case for anonymous functions?
+
 * How do you organize your code? (module pattern, classical inheritance?)
+
 * What's the difference between host objects and native objects?
+
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+
 * What's the difference between `.call` and `.apply`?
 - apply() 두번째 인자에서 배열 형태로 넘기지만 call() 각각 하나의 인자로 넘긴다.
 ```
@@ -53,6 +72,7 @@ Person.call(foo, 1, 2, 3);
 - argsArray: 함수에 전달할 argument의 배열
 
 * Explain `Function.prototype.bind`.
+
 * When would you use `document.write()`?
 ---------
 * What's the difference between feature detection, feature inference, and using the UA string?
@@ -61,7 +81,6 @@ Person.call(foo, 1, 2, 3);
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
-* Explain "hoisting".
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
