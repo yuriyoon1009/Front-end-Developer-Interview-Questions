@@ -14,6 +14,7 @@
 - 루트 컴포넌트 - header compo - section compo - aside compo - footer compo - article compo 
 - 분할된 컴포넌트로 구성되어 부모-자식 관계가 형성된다.
 - 상태 공유가 이루어진다.
+
 ## 컴포넌트 기본 구조
 * ng new
 - 루트 모듈은 프로젝트 최상위 모듈로 main.ts에 의해 부트스트랩 된다. (컴포넌트 트리 상 최상위 컴포넌트인 루트 모듈)
